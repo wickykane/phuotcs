@@ -1,10 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
 @charset "UTF-8";
 
 /*!
-* animate.css -http://daneden.me/animate
+* animate.css -http:daneden.me/animate
 * Version - 3.5.0
-* Licensed under the MIT license - http://opensource.org/licenses/MIT
+* Licensed under the MIT license - http:opensource.org/licenses/MIT
 *
 * Copyright (c) 2015 Daniel Eden
 */
@@ -2661,7 +2660,7 @@
 	animation-name: rollIn;
 }
 
-/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+/* originally authored by Nick Pettit - https:github.com/nickpettit/glide */
 
 @-webkit-keyframes rollOut {
 	from {
@@ -3482,6 +3481,7 @@
 	top: 50%;
 	margin-left: -40px;
 	margin-top: -40px;
+	 background: url("owl.video.play.png") no-repeat;
 	cursor: pointer;
 	z-index: 1;
 	-webkit-backface-visibility: hidden;
@@ -3996,7 +3996,7 @@ header.fix-header .menu-fix-hidden {
 	content: "";
 	position: absolute;
 	top: -10px;
-	background: url(//theme.hstatic.net/1000058451/1000279067/14/up-arrow.gif?v=38);
+	background: url(theme.hstatic.net/1000058451/1000279067/14/up-arrow.gif?v=38);
 }
 .cart-view table{
 	width: 100%;
@@ -4614,13 +4614,13 @@ button.icon-search {
 	width: 52px;
 	height: 52px;
 	float: left;
-	background: url(//theme.hstatic.net/1000058451/1000279067/14/icon_search.png?v=38) center no-repeat;
+	background: url(theme.hstatic.net/1000058451/1000279067/14/icon_search.png?v=38) center no-repeat;
 	border-radius: 0px;
 	border: 0px;
 }
 .btn-group.open button.icon-search,
 li#search-icon:hover button.icon-search {
-	background: url('//hstatic.net/0/0/global/design/theme-default/icon-search-hover.png') #ededed center no-repeat;
+	background: url('hstatic.net/0/0/global/design/theme-default/icon-search-hover.png') #ededed center no-repeat;
 }
 .search-bar {
 	background: #EDEDED;
@@ -4897,7 +4897,7 @@ li#search-icon .dropdown-menu {
 }
 #myCart .modal-footer .button-default:after {
 	content: "";
-	background: url(//theme.hstatic.net/1000058451/1000279067/14/icon-arr.png?v=38) no-repeat center right;
+	background: url(theme.hstatic.net/1000058451/1000279067/14/icon-arr.png?v=38) no-repeat center right;
 	width: 30px;
 	height: 100%;
 	float: right;
@@ -5201,11 +5201,11 @@ li#search-icon .dropdown-menu {
 
 /*
 * jQuery FlexSlider v2.0
-* http://www.woothemes.com/flexslider/
+* http:www.woothemes.com/flexslider/
 *
 * Copyright 2012 WooThemes
 * Free to use under the GPLv2 license.
-* http://www.gnu.org/licenses/gpl-2.0.html
+* http:www.gnu.org/licenses/gpl-2.0.html
 *
 * Contributing author: Tyler Smith (@mbmufffin)
 */
@@ -5592,6 +5592,7 @@ ul.mTSContainer > li img{ vertical-align: bottom; }
 	height: 50px;
 	line-height: 30px;
 	text-align: center;
+	border: 1px solid #2aad23;
 	font-size: 0;
 	color: #2aad23;
 	position: absolute;
@@ -5600,14 +5601,14 @@ ul.mTSContainer > li img{ vertical-align: bottom; }
 	background: rgba(255,255,255,.7);
 }
 .new_thumb_list .owl-controls .owl-nav div.owl-next {
-	background: rgba(0,0,0,.8) url(//theme.hstatic.net/1000058451/1000279067/14/right.svg?v=38) center center no-repeat;
+	background: rgba(0,0,0,.8) url(theme.hstatic.net/1000058451/1000279067/14/right.svg?v=38) center center no-repeat;
 	right: 0;
 	-moz-background-size: 20px 30px;
 	-webkit-background-size: 20px 30px;
 	background-size: 20px 30px;
 }
 .new_thumb_list .owl-controls .owl-nav div.owl-prev{
-	background: rgba(0,0,0,.8) url(//theme.hstatic.net/1000058451/1000279067/14/left.svg?v=38) center center no-repeat;
+	background: rgba(0,0,0,.8) url(theme.hstatic.net/1000058451/1000279067/14/left.svg?v=38) center center no-repeat;
 	left: 0;
 	-moz-background-size: 20px 30px;
 	-webkit-background-size: 20px 30px;
@@ -5623,11 +5624,11 @@ ul.mTSContainer > li img{ vertical-align: bottom; }
 	opacity: 0.3;
 }
 #sliderproduct .flex-direction-nav a.flex-prev {
-	background: url(//theme.hstatic.net/1000058451/1000279067/14/icon-left-flexslider.png?v=38) no-repeat;
+	background: url(theme.hstatic.net/1000058451/1000279067/14/icon-left-flexslider.png?v=38) no-repeat;
 	left: 0;
 }
 #sliderproduct .flex-direction-nav a.flex-next {
-	background: url(//theme.hstatic.net/1000058451/1000279067/14/icon-right-flexslider.png?v=38) no-repeat;
+	background: url(theme.hstatic.net/1000058451/1000279067/14/icon-right-flexslider.png?v=38) no-repeat;
 	right: 0;
 }
 #sliderproduct .flex-direction-nav a.flex-prev:hover,
@@ -5782,7 +5783,7 @@ ul.mTSContainer > li img{ vertical-align: bottom; }
 }
 .style-variant-template input[type=radio]:checked + span {
 	border: 1px solid #e60f1e;
-	background: url(//theme.hstatic.net/1000058451/1000279067/14/checkbox-product.png?v=38) no-repeat right bottom #fff;
+	background: url(theme.hstatic.net/1000058451/1000279067/14/checkbox-product.png?v=38) no-repeat right bottom #fff;
 }
 .style-variant-template span img {
 	margin-right: 3px;
@@ -5811,7 +5812,7 @@ background-color: #da0b00;
 	color: #ffffff;
 }
 .variant-style button.btn-style-add .icon_cart_btn {
-	background: url(//theme.hstatic.net/1000058451/1000279067/14/icon_cart_btn.png?v=38) center center no-repeat #c11212;
+	background: url(theme.hstatic.net/1000058451/1000279067/14/icon_cart_btn.png?v=38) center center no-repeat #c11212;
 	width: 48px;
 	height: 48px;
 	position: absolute;
@@ -6018,8 +6019,7 @@ form#add-item-form {
 	background-size: 27px 44px;
 }
 .list_more_image.owl-carousel .owl-controls .owl-nav div.owl-next, .list_thumb_image.owl-carousel .owl-controls .owl-nav div.owl-next{
-	background: rgba(0,0,0,.8);
-	right: 0;
+	background: rgba(0,0,0,.8); 
 	-moz-background-size: 27px 44px;
 	-webkit-background-size: 27px 44px;
 	background-size: 27px 44px;
@@ -6519,7 +6519,7 @@ button.update-cart:after{
 	padding-bottom: 0;
 }
 #article .info-title-related-article {
-	background-image: url(//theme.hstatic.net/1000058451/1000279067/14/bg-line-dot.png?v=38);
+	background-image: url(theme.hstatic.net/1000058451/1000279067/14/bg-line-dot.png?v=38);
 	background-position: 0 50%;
 	background-repeat: repeat-x;
 	overflow: hidden;
@@ -6558,7 +6558,7 @@ button.update-cart:after{
 .blog-sidebar .blog-title-sidebar {
 	color: #365DB5;
 	font-size: 14px;
-	background-image: url(//theme.hstatic.net/1000058451/1000279067/14/bg-right.png?v=38);
+	background-image: url(theme.hstatic.net/1000058451/1000279067/14/bg-right.png?v=38);
 	background-position: 0 50%;
 	background-repeat: repeat-x;
 	text-transform: uppercase;
@@ -8016,13 +8016,13 @@ body.overlay-layer:after {
 	border-color: #ddd;
 }
 .layout-account .userbox .input-account .icon-envelope:after {
-	content : url('//hstatic.net/378/1000046378/10/2016/2-29/email.png');
+	content : url('hstatic.net/378/1000046378/10/2016/2-29/email.png');
 }
 .layout-account .userbox .input-account .icon-shield:after {
-	content : url('//hstatic.net/378/1000046378/10/2016/2-29/pass.png');
+	content : url('hstatic.net/378/1000046378/10/2016/2-29/pass.png');
 }
 .layout-account .userbox .input-account .icon-userico:after {
-	content : url('//hstatic.net/378/1000046378/10/2016/2-29/userico.png');
+	content : url('hstatic.net/378/1000046378/10/2016/2-29/userico.png');
 }
 .layout-account .action_bottom .btn {
 	font-size: 14px;
@@ -8412,7 +8412,7 @@ border-left: 7px solid #404040;
 	margin-bottom: 15px;
 }
 .box-section-collection .catalog-title {
-	background-image: url(//theme.hstatic.net/1000058451/1000279067/14/bg_catalog_1.png?v=38);
+	background-image: url(theme.hstatic.net/1000058451/1000279067/14/bg_catalog_1.png?v=38);
 	background-repeat: repeat;
 	color: #FFF;
 	font-weight: bold;
@@ -8454,7 +8454,7 @@ border-left: 7px solid #404040;
 }
 .box-section-collection .catalog-icon {
 	background-color: #4b62c8;
-	background-image: url(//theme.hstatic.net/1000058451/1000279067/14/transparent_bg_icon.png?v=38);
+	background-image: url(theme.hstatic.net/1000058451/1000279067/14/transparent_bg_icon.png?v=38);
 	background-repeat: repeat;
 	height: 68px;
 	font-size: 11px;
@@ -8480,7 +8480,7 @@ border-left: 7px solid #404040;
 	background-size: 28px;
 }
 .box-section-collection .catalog-icon .sep {
-	background: url(//static.vatgia.com/20151028/cache/css/v4/beacon_sprite.png) no-repeat 0 -540px;
+	background: url(static.vatgia.com/20151028/cache/css/v4/beacon_sprite.png) no-repeat 0 -540px;
 	float: left;
 	margin: 0px 10px;
 	width: 1px;
@@ -8592,7 +8592,7 @@ display: block;
 
 .widget-wrap:before {
 	content: '';
-	background: url(//theme.hstatic.net/1000058451/1000279067/14/icon_phone.png?v=38) no-repeat center #ff8383;
+	background: url(theme.hstatic.net/1000058451/1000279067/14/icon_phone.png?v=38) no-repeat center #ff8383;
 	width: 60px;
 	height: 60px;
 	border: 6px solid #ff3a3a;
