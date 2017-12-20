@@ -1,0 +1,60 @@
+.menu-list-slider {
+    &>li:hover {
+        color: #fff;
+        background-color: rgb(182, 203, 36);
+    }
+}
+
+.carousel-custom {
+    max-width: 675px;
+    margin: 0 auto;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 210px;
+}
+
+@keyframes slide-in {
+    100% {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes slide-in {
+    100% {
+        -webkit-transform: translateX(0);
+        opacity: 1;
+        
+    }
+}
+
+@keyframes slide-out {
+    0% {
+        transform: translateX(0%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(-100%);
+        opacity: 0.5;
+    }
+}
+
+@-webkit-keyframes slide-out {
+    0% {
+        -webkit-transform: translateX(0%);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateX(-100%);
+        opacity: 0.5;
+    }
+}
+
+.carousel-item.active {
+    // -webkit-animation: slide-out 1s, slide-in 1s;
+    // -moz-animation: slide-out 1s, slide-in 1s;
+    // -ms-animation: slide-out 1s, slide-in 1s;
+    // -o-animation:slide-out 1s, slide-in 1s;
+    // animation: slide-in 1s, slide-out 1s;
+}

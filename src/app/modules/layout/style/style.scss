@@ -1,0 +1,27 @@
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}  
+@keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+
+@-webkit-keyframes heighInc {
+    from { height: 0; }
+      to { height: auto; }
+}  
+@keyframes heighInc {
+    from { height: 0; }
+    to { height: auto; }
+}
+
+.navbar-default .navbar-nav>li:hover .submenu-level1-children {
+    display: block;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+.submenu-level1-children > li > a {
+    padding: 6px 13px !important;
+}

@@ -1,0 +1,10 @@
+.cart-info {
+    &:hover {
+        .cart-view {
+            right: 110px;
+            -webkit-animation: fadeIn .5s;
+            animation: fadeIn .5s;
+            display: block !important;
+        }
+    }
+}
